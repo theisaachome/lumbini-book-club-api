@@ -11,10 +11,24 @@ app.use(express.urlencoded({extended:false}));
 
 // Mount routes files
 const books = require('./routes/bookRoutes');
+const errorHandler = require('./middlewares/errorHandler');
 
 app.use("/api/v1/books",books);
 
 
-app.listen(PORT,()=>{
+// error handler
+
+app.use(errorHandler);
+
+const server =app.listen(PORT,()=>{
     console.log(`Server started on ${PORT}`.green.underline.bold);
 });
+
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (err, promise) => {
+    console.log(`Error: ${err.message}`.red);
+    // Close server & exit process
+    // server.close(() => process.exit(1));
+  });
+  
