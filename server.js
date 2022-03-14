@@ -12,12 +12,13 @@ app.use(express.urlencoded({extended:false}));
 // Mount routes files
 const books = require('./routes/bookRoutes');
 const errorHandler = require('./middlewares/errorHandler');
+const auths =require('./routes/authRoutes');
 
 app.use("/api/v1/books",books);
+app.use("/api/v1/auth",auths);
 
 
 // error handler
-
 app.use(errorHandler);
 
 const server =app.listen(PORT,()=>{
