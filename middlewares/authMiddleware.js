@@ -28,3 +28,12 @@ exports.requiredSignin = asyncHandler(async (req, res, next) => {
     }
 
 })
+
+exports.authorize = (...roles)=>{
+    return (req,res,next)=>{
+        if(!roles.includes(req.user.role)){
+            return next(new ErrorResponse(`User role ${req.user.role} is unauthorized to access this routes`,403));
+        }
+        next();
+    }
+}
