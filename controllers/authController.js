@@ -2,7 +2,6 @@ const asyncHandler = require("express-async-handler");
 const Account = require("../models/Account");
 const ErrorResponse = require("../utils/errorResponse");
 const { sendTokenResponse } = require("../utils/sendTokenResponse");
-// add new user 
 
 
 // @desc      add a new user
@@ -57,14 +56,34 @@ exports.getMe = asyncHandler(async(req,res,next)=>{
         {status:true,account}
     )
 })
+
+
+// @desc      forgot passwordd
+// @route     POST /api/v1/auth/forgotpassword
+// @access    Public
+exports.forgotPassword = asyncHandler(async(req,res,next)=>{
+    // find User with Email
+    const account = await Account.findOne({email:req.body.email});
+    if(!account) {
+        return next(new ErrorResponse(`There is no an account with ${account}`,404));
+    }
+    // Get Reset Token 
+    const resetToken  = account.getResetPasswordToken();
+
+    await account.save({validateBeforeSave:false});
+    
+    console.log(resetToken);
+    res.status(200).json(
+        {status:true,account}
+    )
+})
+
+
+
 // update detail
-
-
 exports.updateDetail = asyncHandler(async(req,res,next)=>{})
 //  reset Password
 
 
 exports.resetPassword = asyncHandler(async(req,res,next)=>{})
 // forget password
-
-exports.forgetPassword = asyncHandler(async(req,res,next)=>{})
