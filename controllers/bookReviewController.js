@@ -71,7 +71,7 @@ exports.addBookReview = asyncHandler(async(req,res,next)=>{
 
 exports.updateBookReview = asyncHandler(async(req,res,next)=>{
     let bookreview = await BookReview.findById(req.params.id);
-    if (!review) {
+    if (!bookreview) {
         return next(
           new ErrorResponse(`No Bookreview with the id of ${req.params.id}`, 404)
         );
@@ -96,3 +96,30 @@ exports.updateBookReview = asyncHandler(async(req,res,next)=>{
 });
 
 
+
+
+// @desc      Delete Bookreview
+// @route     DELETE /api/v1/bookreviews/:id
+// @access    Private
+exports.deleteBookReview = asyncHandler(async (req, res, next) => {
+    const bookReview = await BookReview.findById(req.params.id);
+  
+    if (!bookReview) {
+      return next(
+        new ErrorResponse(`No bookReview with the id of ${req.params.id}`, 404)
+      );
+    }
+  
+    // Make sure bookReview belongs to user or user is admin
+    if (req.user.role !== 'admin') {
+      return next(new ErrorResponse(`Not authorized to delete bookReview`, 403));
+    }
+  
+    await bookReview.remove();
+  
+    res.status(200).json({
+      success: true,
+      data: {}
+    });
+  });
+  
