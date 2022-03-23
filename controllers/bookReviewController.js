@@ -50,7 +50,7 @@ exports.getBookReview = asyncHandler(async (req, res, next) => {
 
 // @desc      Add  Bookreviews (from The Store)
 // @route     GET /api/v1/books/:bookid/bookreviews
-// @access    Public
+// @access    private
 exports.addBookReview = asyncHandler(async(req,res,next)=>{
     req.body.book = req.params.bookid;
     req.body.createdBy = req.user.id;
@@ -64,5 +64,35 @@ exports.addBookReview = asyncHandler(async(req,res,next)=>{
     });
 })
 
+
+// @desc      Update review
+// @route     PUT /api/v1/reviews/:id
+// @access    Private
+
+exports.updateBookReview = asyncHandler(async(req,res,next)=>{
+    let bookreview = await BookReview.findById(req.params.id);
+    if (!review) {
+        return next(
+          new ErrorResponse(`No Bookreview with the id of ${req.params.id}`, 404)
+        );
+      } 
+
+
+  // Make sure the logged in user is admin
+  if (req.user.role !== 'admin') {
+    return next(new ErrorResponse(`Not authorized to update bookreview`, 401));
+  }
+
+  bookreview = await BookReview.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true
+  });
+  bookreview.save();
+  res.status(200).json({
+      success:true,
+      data:bookreview,
+  })
+
+});
 
 
