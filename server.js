@@ -15,14 +15,14 @@ app.use(express.urlencoded({extended:false}));
 const books = require('./routes/bookRoutes');
 const auths =require('./routes/authRoutes');
 const users = require('./routes/userRoutes');
-
+const bookreviews = require('./routes/bookreviewRoutes');
 app.use("/api/v1/books",books);
 app.use("/api/v1/auth",auths);
 app.use("/api/v1/users",users);
+app.use("/api/v1/bookreviews",bookreviews);
 
 
 // error handler
-
 const errorHandler = require('./middlewares/errorHandler');
 app.use(errorHandler);
 
