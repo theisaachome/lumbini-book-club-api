@@ -10,7 +10,7 @@ const dotenv = require('dotenv').config();
 const Book = require('./models/Book');
 
 
-mongoose.connect(process.env.MONGO_URL,()=>{});
+mongoose.connect(process.env.MONGO_URL_LOCAL,()=>{});
 
 // read json files
 const books = JSON.parse(fs.readFileSync("./_data/book.json",'utf-8'));

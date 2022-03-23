@@ -20,10 +20,10 @@ exports.requiredSignin = asyncHandler(async (req, res, next) => {
         const decoded =  jwt.verify(token,process.env.JWT_SECRET);
         console.log(decoded.id);
         const user = await Account.findById(decoded.id);
-        console.log(user);
         req.user = user;
         next();
     } catch (error) {
+        console.log(error);
         return next(new ErrorResponse('Not authorized to access this route', 401));
     }
 
