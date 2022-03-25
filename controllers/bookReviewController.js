@@ -8,7 +8,12 @@ const ErrorResponse = require('../utils/errorResponse');
 // @route     GET /api/v1/bookreviews
 // @access    Public
 exports.getAllBookReview = asyncHandler(async (req, res, next) => {
-    const bookReviews = await BookReview.find().sort('createdAt');
+    const bookReviews = await BookReview.find()
+            .sort('createdAt')
+            .populate({
+              path:'book',
+              select:'title author'
+            });
     res.status(200).json(
         {
             status: true,
@@ -60,7 +65,7 @@ exports.addBookReview = asyncHandler(async(req,res,next)=>{
     const bookreview = await BookReview.create(req.body);
     res.status(201).json({
         success: true,
-        data: bookReview
+        data: bookreview
     });
 })
 

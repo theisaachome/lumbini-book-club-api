@@ -2,2051 +2,2051 @@
     {
       "author": "A Yoe",
       "title": "မျှော်လင့်လမ်း",
-      "Price": "4,200 ",
+      "price": 4200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Akyi Taw",
       "title": "သူခိုး",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Akyi Taw",
       "title": "ရွှေမိုးသည်း",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Akyin Nar Mon",
       "title": "တောင်တောရယ်သာ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 1,
       "publisher": "NDSP"
     },
     {
       "author": "Ashin Eiddhi Pala",
       "title": "မင်းဟာစကြဝဠာရဲ့အရှင်သခင်",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Ashin Sandar Hti Ka",
       "title": "ကိုယ့်စိတ်ကိုယ်စစ်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Aung Aye (Yangon University)",
       "title": "တော်လှန်ရေးကောင်စီမှ စစ်အာဏာရှင်စနစ်ဆီသို့",
-      "Price": "10,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Aung Cheint",
       "title": "ဂန္တဝင်မမ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Aung Cheint",
       "title": "မင်းကအောင်ချိမ့်လား",
-      "Price": "10,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Aung Thin",
       "title": "အမွေလက်ခံလိုက်စမ်းပါ တကယ့်အနုပညာ",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Aung Tun",
       "title": "မြန်မာနိုင်ငံကျောင်းသားလှုပ်ရှားမှုသမိုင်း",
-      "Price": "12,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "British Ko Ko Maung",
       "title": "နေထွက်ဘုရင်",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "British Ko Ko Maung",
       "title": "ဘောနက်ကြီး",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 2,
       "publisher": "NDSP"
     },
     {
       "author": "British Ko Ko Maung",
       "title": "၆၆ (ယ)ရှောင်နည်းနှင့် နိုင်ငံရေးသရော်စာများ",
-      "Price": "2,800 ",
+      "price": 2800 ,
       "inStock": 2,
       "publisher": "NDSP"
     },
     {
       "author": "British Ko Ko Maung",
       "title": "တော်လှန်သောသရော်စာများ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 2,
       "publisher": "NDSP"
     },
     {
       "author": "Cambridge",
       "title": "Vocabulary For IELTS",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Cambridge",
       "title": "Grammer For IELTS",
-      "Price": "5,500 ",
+      "price": 5500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Chan Myae Win",
       "title": "ဆုလာဘ်",
-      "Price": "5,500 ",
+      "price": 5500 ,
       "inStock": 1,
       "publisher": "Zit Myit"
     },
     {
       "author": "Chan Myae Win",
       "title": "ဂရုမစိုက်ခြင်း အနုပညာ ဘဝနေနည်းအသစ်",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": "Zit Myit"
     },
     {
       "author": "Chan Myae Win",
       "title": "တစ်+တစ် = သုံး",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": "Zit Myit"
     },
     {
       "author": "Chan Myae Win",
       "title": "မျှော်လင့်ခြင်းဖတ်စာ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Chan Myae Win",
       "title": "အမှောင်",
-      "Price": "6,500 ",
+      "price": 6500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Chit Oo Nyo",
       "title": "ဥပေက္ခာဒေဝီ",
-      "Price": "10,000 ",
+      "price": 1000,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Chit Oo Nyo",
       "title": "လင်္ကာဒီပချစ်သူ",
-      "Price": "8,000 ",
+      "price": 8000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Chit Oo Nyo",
       "title": "နေမင်းလမင်း သိန်းရာထောင်",
-      "Price": "5,500 ",
+      "price": 5500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Chit Oo Nyo",
       "title": "သုဓနုနှင့်မနောဟရာ",
-      "Price": "8,000 ",
+      "price": 8000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Cho Paing Naung",
       "title": "၁၀ လွှာ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": "NDSP"
     },
     {
       "author": "Cho Paing Naung",
       "title": "သက်တံပေါ်မှာ ကခုန်ကြသူများ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "Collin",
       "title": "Writing For IELTS",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Collin",
       "title": "Speaking For IELTS",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "D No Vo",
       "title": "နိုင်းမြစ်တကြောမေ့မေ့မျောမျော",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Dr. Aung Myint Oo",
       "title": "စာပေပင်လယ်ထဲက ကဗျာလှိုင်းကလေး",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Dr.Phyo Thiha",
       "title": "Minimalism ",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Dr.Phyo Thiha",
       "title": "ပရော်ဖက်ရှင်နယ်တစ်ယောက်ဖြစ်ဖို့ဆိုရင်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Dr.Phyo Thiha",
       "title": "ကမ္ဘာကြီးရဲ့တောင်ပံတစ်စုံ",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Dr.Phyo Thiha",
       "title": "ပျော်ရွှင်ပါစေ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Hla Than",
       "title": "ကျနော့်ရဲ့ယခုအချိန်နှင့်အခြားမငြိမ်သက်မှုများ",
-      "Price": "1,000 ",
+      "price": 1000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Htet Htet Htun",
       "title": "နေ့တိုင်းပျော်ပါတယ်",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Htet Htet Htun",
       "title": "ဘဝထဲကအမေး/အဖြေများ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Htet Yei",
       "title": "The Brand In You",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Jauk Jack",
       "title": "ဂျောက်ဂျက် (ပြန်လှည့်ကြည့်တော့ ခဏလေး)",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Jessica Mozart",
       "title": "The Body Book",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "သူလိုမိန်းမ",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "မေတ္တာ",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "စိတ်",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "မေ့အိမ်မက်",
-      "Price": "900 ",
+      "price": 900,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "သွေး",
-      "Price": "5,500 ",
+      "price": 5500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "သူလိုလူ",
-      "Price": "6,500 ",
+      "price": 6500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "တွေးတစိမ့်စိမ့်",
-      "Price": "2,800 ",
+      "price": 2800 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw Ma Ma Lay",
       "title": "ရင်မှတစ်ရှိုက်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Journal Kyaw U Chit Mg",
       "title": "ဝတ္ထုတိုများ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "ကြာတော့သည်လည်း မောင့်စကား",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "အောက်ခြေသန်းတစ်ထောင်",
-      "Price": "800 ",
+      "price": 800,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "အစိမ်းရောင်အမွေအနှစ်",
-      "Price": "1,000 ",
+      "price": 1000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "အရောင်များနှင့်ကစားခြင်း",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "ပင်လယ်နှင့်တူသောမိန်းမများ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "ကျွန်မ၏သစ်ပင်",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "ကျွန်မချစ်သောကမ္ဘာမြေ",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "ကြယ်စင်တံတားကမ်းပါးနှင်းဖြူ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "သက်တံတို့ဖြင့်ရက်ဖွဲ့ချစ်သူရဲ့ခြုံလွှာ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "ကျမချစ်သောနိုင်ငံ",
-      "Price": "800 ",
+      "price": 800,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Juu",
       "title": "အမှတ်တရ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Kaung Thar",
       "title": "မုန်းတီးသူများကို ပွေ့ဖက်ပါ",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Khet Zaw",
       "title": "The Guys Of Rangoon",
-      "Price": "8,500 ",
+      "price": 8500 ,
       "inStock": 1,
       "publisher": "NDSP"
     },
     {
       "author": "Khet Zaw",
       "title": "The Guys From Mandalay",
-      "Price": "8,500 ",
+      "price": 8500 ,
       "inStock": 2,
       "publisher": "NDSP"
     },
     {
       "author": "Khet Zaw",
       "title": "AVA",
-      "Price": "8,500 ",
+      "price": 8500 ,
       "inStock": 1,
       "publisher": "NDSP"
     },
     {
       "author": "Khet Zaw",
       "title": "TGOR Vol 1+2",
-      "Price": "8,000 ",
+      "price": 8000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khet Zaw",
       "title": "TGOR Vol 3+4",
-      "Price": "8,000 ",
+      "price": 8000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Hnin Yu",
       "title": "မြကြာဖြူ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Khin Hnin Yu",
       "title": "ပျားရည်အိုင်",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Hnin Yu",
       "title": "ကျမ၏ ချစ်သူ",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Khin Hnin Yu",
       "title": "စိမ်းသင့်မှစိမ်း",
-      "Price": "2,200 ",
+      "price": 2200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Hnin Yu",
       "title": "နွေနှောင်းရွက်ကျန်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Hnin Yu",
       "title": "ယောက်ျားတို့အကြောင်း",
-      "Price": "2,300 ",
+      "price": 2300 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "ဖက်စိမ်းကွမ်းတောင်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "ပါးကွက်ကျားဝတ္ထုတို",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "သုံးချက်စည်း",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "အညာသူအညာသား ကျမဆွေမျိုးများ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "တောမင်းသမီး",
-      "Price": "9,000 ",
+      "price": 9000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "မအိမ်ကံ",
-      "Price": "9,000 ",
+      "price": 9000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "ဝတ္ထုတို ၅ ပုဒ်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "ဇော်နီကွမ်းသွေးဝတ္ထုတို(၅)ပုဒ်",
-      "Price": "1,200 ",
+      "price": 1200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Khin Khin Htoo",
       "title": "ပန်းကြာဝတ်မှုံ",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Ko Ko Lay",
       "title": "ခရူးဆိတ်စစ်ပွဲများ",
-      "Price": "13,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Kyal Sin Yu Mon",
       "title": "အာဟာရဒိုင်ယာရီ",
-      "Price": "6,500 ",
+      "price": 6500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Kyar Pauk",
       "title": "ကြောင်စာ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "Kyaw Yin Myint ",
       "title": "ဘုန်ကြီးကျောင်းမှာဘီးရောင်းမယ်",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Kyi Aye",
       "title": "မီ",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Kyi Aye",
       "title": "မောင်၊ ကိုကို နှင့်မြနန္ဒာ",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Kyi Aye",
       "title": "နွမ်းလျအိမ်ပြန်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Lal Twin Thar Saw Chit",
       "title": "ကျွန်တော် အမုန်းဆုံး ကျွန်တော်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Lu Du Daw AMar",
       "title": "၁၂ ပွဲဈေးသည်နှင့် ကျွန်မတို့ အညာ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": "LuDu"
     },
     {
       "author": "Lu Thar Man",
       "title": "ပေးရှန့်စ်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Lynn Khant",
       "title": "ဖောရက်စ်ဂမ့်",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Lynn Tint Thiha",
       "title": "လူနာ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Lynn Yaung Sin",
       "title": "ငါ့အတွက်ငါရှိတယ်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Lynn Yaung Sin",
       "title": "ချစ်တယ်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Ma Sandar",
       "title": "ဆဠဂံ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Ma Thida (Sanchaung)",
       "title": "မျိုုမြို့",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "Ma Thida (Sanchaung)",
       "title": "စမ်းချောင်းအင်းစိန် ဟားဗက်",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "Ma Thida (Sanchaung)",
       "title": "အညိုမှသည် ကြက်သွေးနီသို့",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Ma Thida (Sanchaung)",
       "title": "ဒေါ်အောင်ဆန်းစုကြည်အတွက် စာတစ်စောင်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mar Yin Yin",
       "title": "ကျေနပ်တယ်",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mar Yin Yin",
       "title": "ပျော်ရွှင်ခြင်းတံခါးပေါက်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mar Yin Yin",
       "title": "ဖြစ်ရိုးဖြစ်စဉ်",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Maung Moe Thu",
       "title": "Exodus",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "Maung Myint Kywe",
       "title": "မြန်မာပြည်မှနေ့ရက်များ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Maung Paw Tun",
       "title": "အကြီးအကဲ",
-      "Price": "12,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Maung Thar Cho",
       "title": "အနာဂါတ်ဝါကျများ",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Maung Thein Saing",
       "title": "ပုဂံမြို့သူ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Maung Thein Saing",
       "title": "ရေနံ့သာခင်ခင်ကြီး",
-      "Price": "13,000 ",
+      "price": 1000,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Maung Tun Thu",
       "title": "ရှန်ဂရီလာ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "Maung Tun Thu",
       "title": "ဆိုင်ဂုံ",
-      "Price": "13,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Maung Tun Thu",
       "title": "မျှော်တလင့်လင့်",
-      "Price": "9,000 ",
+      "price": 9000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Maung Tun Thu",
       "title": "ဗင်းဆင့်ရှာပုံတော်",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Maung Tun Thu",
       "title": "တက်စ်(TESS)",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Maung Tun Thu",
       "title": "ပီကင်း",
-      "Price": "10,000 ",
+      "price": 1000,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Maung Tun Thu",
       "title": "မော်ရေဗီးယားဝတ္ထုတိုများ",
-      "Price": "3,200 ",
+      "price": 3200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mi Man Lay",
       "title": "မိမန်းလေး မေတ္တာပြိုင်ပွဲ",
-      "Price": "6,500 ",
+      "price": 6500 ,
       "inStock": 0,
       "publisher": "NDSP"
     },
     {
       "author": "Min Aung Min",
       "title": "နိုင်ငံတခုကိုသုတ်သင်ခြင်း",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Din",
       "title": "ဖြစ်ပျက်ရှာပုံတော် ခရီးသည်",
-      "Price": "7,000 ",
+      "price": 7000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Khite Soe San",
       "title": "စုန်း",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Khite Soe San",
       "title": "ဂျစ်ကန်ကန် ဝတ္ထုတိုများ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Khite Soe San",
       "title": "(၁) ကမ္ဘာ့ သရဲ တစ္ဆေဝတ္ထုတိုများ",
-      "Price": "2,700 ",
+      "price": 2700 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Ko Naing",
       "title": "နောက်ကြည့်မှန်",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Ko Naing",
       "title": "လဝန်းမျက်နှာကြည့်တိုင်းသာ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Ko Naing",
       "title": "တောဘူတာရုံလေး",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ပြောတိုင်းယုံတဲ့ ပုတ်သင်ညို",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ရေတမာ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "အော်ဆွေး",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "အောင်ဘာလေ",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "အချစ်သည်သက်တော်ရာကျော်စေရှည်သတည်း",
-      "Price": "3,800 ",
+      "price": 3800 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ငှက်ကလေး",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "လွန်လေပြီးသော နှလုံးသား",
-      "Price": "4,200 ",
+      "price": 4200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ခုနှစ်စဥ် အလွမ်း",
-      "Price": "3,300 ",
+      "price": 3300 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ကံ့ကော်နီ",
-      "Price": "3,200 ",
+      "price": 3200 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "သုံးနားညီ",
-      "Price": "2,800 ",
+      "price": 2800 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ပြန်ခေါ်သက်သေ",
-      "Price": "2,800 ",
+      "price": 2800 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "နှလုံးသား၃၈၀/၅၄",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ပန်းကျောင်း",
-      "Price": "3,200 ",
+      "price": 3200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Min Lu",
       "title": "ဖော်ကွာဝေး",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Moe Moe(Innyar)",
       "title": "ညီမလေးက အချစ်ကို ကိုးကွယ်သတဲ့လား",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Moe Moe(Innyar)",
       "title": "မြန်မာပြည်မှာ နေကြသည်.",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Moe Moe(Innyar)",
       "title": "ပျောက်သောလမ်းမှာစမ်းတဝါး",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Moe Shin",
       "title": "လက်ဆောင်",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Moe Shin",
       "title": "သူစိတ်ဓာတ်ကျတိုင်းဖတ်ဖို့",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Moe Shin",
       "title": "ဖာရာရီလမ်းခွဲ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Mon Halsey",
       "title": "မင်္ဂလာပါ ဆရာမ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Mon Halsey",
       "title": "Mental Detox ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Mon Halsey",
       "title": "အမေ့ကို ပြောဖြစ်သော စကားများ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mon Halsey",
       "title": "Balance Wheel Of life",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mon Halsey",
       "title": "Healthy Divorce ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Mya Kyay",
       "title": "ညီမလေး...ရီ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Mya Kyay",
       "title": "ရောက်တဲ့နေရာက ခဏလောက်ပြန်ခဲ့ပါ",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "သမိုင်းကြေးမုံ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "၂၀ရာစုနှစ်ကမ္ဘာ့ဂန္ထဝင်ဝတ္ထုတိုများ",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "သုခမြို့တော်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "ပန်းတစ်ပွင့်၏လူသတ်ခန်းဝတ္ထုတိုများ",
-      "Price": "1,700 ",
+      "price": 1700 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "စစ်နှင့်ငြိမ်းချမ်းရေး(ပ+ဒု)",
-      "Price": "30,000 ",
+      "price": 3000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "လေရူးသုန်သုန်(ပ+ဒု)",
-      "Price": "25,000 ",
+      "price": 2000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "ရွှေပြည်",
-      "Price": "25,000 ",
+      "price": 2000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Mya Than Tint",
       "title": "ဓားတောင်ကိုကျော်၍မီးပင်လယ်ကိုဖြတ်မည်",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Myat Nyein ",
       "title": "စမတ်လူငယ်",
-      "Price": "10,000 ",
+      "price": 1000,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Myay Hmone Lwin",
       "title": "အရိပ်တကြည့်ကြည့်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Myay Hmone Lwin",
       "title": "ရန်ကုန်တိရစ္ဆာန်ဥယျာဥ်မှ ဖျံတစ်ကောင် လွတ်နေ",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Myit Kyoe Inn",
       "title": "မျှော်လင့်ခြင်းကိုမျှားတဲ့ညနေ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Naing Win Swe",
       "title": "မသိန်းရှင်ဆီပို့ပေးပါ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nanda Sarya",
       "title": "ဗုဒ္ဓနည်းကျ နာမကျန်းသူပြုစုနည်း",
-      "Price": "2,800 ",
+      "price": 2800 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nanda Thein Zan",
       "title": "ထေရဝါဒ နှင့်ပတ်သက်သော မှတ်ချက်များ",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nanda Thein Zan",
       "title": "မိတ်ကောင်းဆွေကောင်းနှင့်ခရီးသွားခြင်း",
-      "Price": "1,200 ",
+      "price": 1200 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nat Nwe",
       "title": "မြန်မာပြည်မြောက်ပိုင်း",
-      "Price": "13,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nat Nwe",
       "title": "COMA",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nat Nwe",
       "title": "FEVER",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Ngu War Kyaw Oo",
       "title": "ဘိုတောက်မှတ်စုများ",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Ni Ko Ye",
       "title": "ချဲဝှီး",
-      "Price": "1,300 ",
+      "price": 1300 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Ni Ko Ye",
       "title": "မကြည်ပြာနှင့်ချစ်ခြင်း နဂ္ဂတစ်များ (စ+ဆုံး ပေါင်းချုပ်)",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Ni Ko Ye",
       "title": "နှလုံးသားထဲကြွက်ဝင်နေသည်",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nine Nine Sa Nay",
       "title": "အချစ်နှင့်စိတ်",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nine Nine Sa Nay",
       "title": "သတ္တိရှိတဲ့ပထမခြေလှမ်း",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "No Shi",
       "title": "ရေဇယ်",
-      "Price": "3,300 ",
+      "price": 3300 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "၂၈ နှစ်ရှိပြီဖြစ်တဲ့ မိန်းမတယောက်",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "ဗိုလ်ကေတထောင်မှာတယောက်လောက်တော့စွဲကောင်းပါရဲ့",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "ထမီလေးတစ်ထည်နှင့်အခြားဝတ္ထုတိုများ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "ပြုံး၍လည်းကန်တော့ခံတော်မူပါ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "သောက်တော့ဒူးယားနေတော့ခြုံကြား",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "အိပ်နေရင်ည နိုးနေရင်နေ့",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "မြစိမ်းပြာကမာရွတ်",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nu Nu Yi Innwa ",
       "title": "ခေါင်းမော့လိုက်တော့မင်း၊ခေါင်းငုံ့လိုက်တော့သူ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Nyan Wai",
       "title": "နှင်းတောင်တန်းက ပန်းဥယျာဉ်",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Nyi Pu Lay",
       "title": "ထက်မြက်သောဓားသွားပေါ်ကချိုမြမြပျားရည်စက်",
-      "Price": "9,000 ",
+      "price": 9000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Oxford Sayar Taw",
       "title": "အလုပ်ခွင်မှာ တရားမှတ်နည်း",
-      "Price": "6,500 ",
+      "price": 6500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Papillon",
       "title": "ဆံနွယ်ခက်ခက် အိမ်မက်ရနံ့ဟောင်း နှင့် ကိုသံချောင်းနှင့် နှစ်ပေါင်း ၂၀",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Papillon",
       "title": "ဇီးကွက်ချောင်းတံတားပေါ်ကအဝါရောင်ဝက်ဝံရုပ်အချိုးအပဲ့လေး",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Par Ya Gu",
       "title": "အိန္ဒိယ ခရီးသည်",
-      "Price": "6,500 ",
+      "price": 6500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Par Ya Gu",
       "title": "ပုဂံခရီးသည်",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pe Moe Hnin",
       "title": "စာပေါင်းချုပ် - ပ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pe Moe Hnin",
       "title": "စာပေါင်းချုပ် - ဒု",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pe Moe Hnin",
       "title": "ဝတ္ထုတို ၅ ပုဒ်",
-      "Price": "800 ",
+      "price": 8000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pe Moe Hnin",
       "title": "နေညိုညို",
-      "Price": "2,200 ",
+      "price": 2200 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Pe Moe Hnin",
       "title": "နေရီရီ",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Phay Myint",
       "title": "နှလုံးသားအာဟာရ",
-      "Price": "2,300 ",
+      "price": 2300 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Phone Naing ",
       "title": "မိုးညအိမ်မက်မြူ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Phone Naing ",
       "title": "လွမ်းတေးမဆုံးစေနဲ့စောသခင်",
-      "Price": "5,300 ",
+      "price": 5300 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Phone Naing ",
       "title": "သူ့ကျွန်မခံပြီ",
-      "Price": "3,200 ",
+      "price": 3200 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Phone Naing ",
       "title": "တစ်ပြည်သူမရွှေထား",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Phone Naing ",
       "title": "စိမ်းနေဦးမည့်ကျွန်တော့်မြေ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Phone Naing ",
       "title": "သူငယ်ချင်းလို့ပဲဆက်၍ခေါ်မည်..ခိုင်",
-      "Price": "8,500 ",
+      "price": 8500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Phraw San",
       "title": "ပျော်ရွှင်ခြင်းပြတင်းပေါက်လေး",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pone Nya Khin",
       "title": "အိမ်မက်ဆက်ကြိုး",
-      "Price": "12,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pone Nya Khin",
       "title": "လက်ကျန်လရောင်",
-      "Price": "6,500 ",
+      "price": 6500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pone Nya Khin",
       "title": "တနုံ့နုံ့ဆွသောဆူး",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pone Nya Khin",
       "title": "မိန်းကလေးများသို့မေတ္တာစကား",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Pone Nya Khin",
       "title": "အနောက်တောင်အရပ်မှလာခဲ့သူ",
-      "Price": "7,000 ",
+      "price": 7000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Raymond Murphy",
       "title": "Basic Grammer in use",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Raymond Murphy",
       "title": "English Grammer in use",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Raymond Murphy(WE)",
       "title": "English Grammer in use",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "San Shwe Myint",
       "title": "နော်ကူးမ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Sapal Phyu Nu",
       "title": "အခါတပါး",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Seint San Phyu",
       "title": "ဆရာဝန်တစ်ယောက်ရဲ့ဒိုင်ယာရီ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "ဝတ္ထုတို ၅ ပုဒ်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "ပထမံဆရာသိန်း",
-      "Price": "2,700 ",
+      "price": 2700 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "မျှော်တလင့်လင့်",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "သီရိဓမ္မာသောကမင်းကြီးတံဆိပ်တော်",
-      "Price": "2,100 ",
+      "price": 2100 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "တစ်ကျွန်းပြန်စုံထောက်ဝတ္ထုရှည်များ",
-      "Price": "3,200 ",
+      "price": 3200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "စုံထောက်ဝတ္ထုတိုအသစ်များ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "တစ်သက်တာမှတ်တမ်းနှင့်အတွေးအခေါ်များ",
-      "Price": "12,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "အကြံဉာဏ်ဖြင့်ကြီးပွားရေး",
-      "Price": "1,800 ",
+      "price": 1800 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "စန္ဒာဒေဝီ",
-      "Price": "1,700 ",
+      "price": 1700 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "အသစ်စုံထောက်",
-      "Price": "1,300 ",
+      "price": 1300 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "ဝသုံးလုံး",
-      "Price": "1,800 ",
+      "price": 1800 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Shwe Ou Daung",
       "title": "အတွေးအမြင်နှင့်ရှုထောင့်",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Sit Nyein",
       "title": "ပုံပြင်ထဲက ရာသီဥတု",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Sit Nyein",
       "title": "ကမ္ဘာမြေရဲ့ တစ်နေရာ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Soe Htike (Phado)",
       "title": "ဖားစည်သံအမှန်တို့လွင်ပါစေ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Soe Htike (Phado)",
       "title": "မြေဇာပင်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Soe Htike (Phado)",
       "title": "ကျွန်တော်နှင့် ပန်းကလေးများ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Su Chi Ko",
       "title": "ညီ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Su Chi Ko",
       "title": "Ex-pect",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Than Myint Aung",
       "title": "ငိုခြင်းရယ်ခြင်းနီးခြင်းဝေးခြင်းနှင့်",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Thandar",
       "title": "အရိမ်မဲ့ပန်းတို့လွင့်မျောရာ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Thaw Dar Dwe",
       "title": "သတ္တဝါတို့၏သံသရာ",
-      "Price": "2,300 ",
+      "price": 2300 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Thaw Dar Swe",
       "title": "ချွေးသွေးစတေး၍",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": "Seikku Cho Cho"
     },
     {
       "author": "Thaw Dar Swe",
       "title": "ဘဝထိုထို",
-      "Price": "2,300 ",
+      "price": 2300 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Thaw Dar Swe",
       "title": "ဤလောကမြေမဟီဝယ်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Thaw Dar Swe",
       "title": "ဝတ္ထုတို ၅ ပုဒ်",
-      "Price": "1,600 ",
+      "price": 1600 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Thaw Dar Swe",
       "title": "ဘွန္တောကြက်သူခိုး",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Thein Phay Myint",
       "title": "အရှေ့နေဝန်းထွက်သည့် ပမာ ပေါင်းချုပ်",
-      "Price": "13,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Thein Phay Myint",
       "title": "( ပ+ဒု ) အရှေ့နေဝန်းထွက်သည့် ပမာ ",
-      "Price": "12,000 ",
+      "price": 1000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Thein Phay Myint",
       "title": "ကျော်ငြိမ်း",
-      "Price": "2,700 ",
+      "price": 2700 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Thein Phay Myint",
       "title": "ဝတ္ထုတို ၅ ပုဒ်",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 1,
       "publisher": "Seikku Cho Cho"
     },
     {
       "author": "Thein Phay Myint",
       "title": "စစ်အတွင်းခရီးသည်",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Thu Maung",
       "title": "မျိုးရိုးထဲမှဆိုးပေကြီးများ",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tin Moe",
       "title": "မြန်မာကဗျာဖွဲ့နည်း",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tin Nyunt",
       "title": "ကောင်လေး တစ်ယောက်အကြောင်း",
-      "Price": "2,000 ",
+      "price": 2000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tin Nyunt",
       "title": "အညာစောင်",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tin Nyunt",
       "title": "Zမျိုးဆက်တော်လှန်ရေး",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tin Nyunt",
       "title": "တယောအို",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tin Nyunt",
       "title": "ရိုးမပေါ်မှာကျတဲ့မျက်ရည်",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Tin Nyunt",
       "title": "မရှိခြင်းဖြင့်ချမ်းသာခြင်း",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Tristan Pyne",
       "title": "Favourite Person",
-      "Price": "3,000 ",
+      "price": 3000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "အတိတ်ခါးခါး",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "စွန့်စားခန်းပေါင်ချုပ် (ပ+ဒု)",
-      "Price": "9,000 ",
+      "price": 9000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "အပျိုကြီးမမ",
-      "Price": "1,800 ",
+      "price": 1800 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "မိုးထဲလေထဲ အိုသရဲ",
-      "Price": "2,200 ",
+      "price": 2200 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "အမြန်လမ်းမှလူ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "မြစမ်းသီလာ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "ရုပ်ရှင်နယ်လို့အလည်တစ်ခေါက်",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "သံယောဇဥ် စေတမာန်",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "လူပျိုကြီးများ",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "ကျားသစ်နက်ရှာပုံတော်",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Tut Pe",
       "title": "ရာဇဝင်ထဲမှာတွတ်ပီကိုထားရစ်ခဲ့",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "U Aung Khin",
       "title": "အသက်အငယ်ဆုံး နိုဘယ်ဆုရှင်မာလာလာ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "U Chan Mya",
       "title": "အချုပ်တန်းဆရာဖေ",
-      "Price": "1,500 ",
+      "price": 1500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "U Nu",
       "title": "မိတ္တဗလဋီကာ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "U Nu",
       "title": "တာတေစနေသား",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "U Nu",
       "title": "ငရဲဆိုချိုနဲ့လားဗျို့",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "U Nu",
       "title": "ကာမတဏှာ",
-      "Price": "4,500 ",
+      "price": 4500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "U Phoe Kyar",
       "title": "ကိုယ်တွေ့ဝတ္ထုများ",
-      "Price": "4,000 ",
+      "price": 4000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "U Thu Kha",
       "title": "ဝတ္ထုတိုများ",
-      "Price": "7,000 ",
+      "price": 7000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Various Author",
       "title": "မနောမြေနှင့်အနီးတစ်ဝိုက်",
-      "Price": "2,500 ",
+      "price": 2500 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Win Nyein",
       "title": "ဇာတ်တူသားစားသူများ",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 1,
       "publisher": "NDSP"
     },
     {
       "author": "Win Nyein",
       "title": "ဖြစ်တည်ခြင်း",
-      "Price": "8,000 ",
+      "price": 8000 ,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Win Nyein",
       "title": "ဗမာပြည်မှာပျော်ပါစေ",
-      "Price": "5,000 ",
+      "price": 5000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Win Nyein",
       "title": "နန်းကျဘုရင်",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Win Nyein",
       "title": "ဗမာ့မုဆိုး",
-      "Price": "3,500 ",
+      "price": 3500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Win Nyein",
       "title": "ပထမသူတို့ကျွန်မအဖေကိုသတ်လိုက်ကြတယ်",
-      "Price": "6,000 ",
+      "price": 6000 ,
       "inStock": 2,
       "publisher": ""
     },
     {
       "author": "Win Tin",
       "title": "ကွိ",
-      "Price": "5,000 ",
+      "price": 5000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Win Win Latt",
       "title": "အချစ်၏နောက်ဆက်တွဲစာမျက်နှာများ",
-      "Price": "4,500 ",
+      "price": 4500,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Yarzar Wizaya",
       "title": "မဖတ်ရမြဲတတ်သည်",
-      "Price": "5,000 ",
+      "price": 5000,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Yin Maung",
       "title": "Bonsai Book 3",
-      "Price": "7,500 ",
+      "price": 7500 ,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Yu Ya",
       "title": "မဲ့",
-      "Price": "3,000 ",
+      "price": 3000,
       "inStock": 1,
       "publisher": ""
     },
     {
       "author": "Zaw Win Kyu",
       "title": "သတိပဌာန်ဦးနှောက်",
-      "Price": "7,000 ",
+      "price": 7000,
       "inStock": 0,
       "publisher": ""
     },
     {
       "author": "Zaw Win Kyu",
       "title": "ဗုဒ္ဓဦးနှောက်",
-      "Price": "4,500 ",
+      "price": 4500,
       "inStock": 0,
       "publisher": ""
     }
