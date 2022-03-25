@@ -33,7 +33,24 @@ const BookSchema = mongoose.Schema({
     },
     {
         // for reverse population which are persist in datatbase.
-        toJSON:{}
+        toJSON:{virtuals:true},
+        toObject:{virtuals:true}
     }
 );
+
+// Cascade delete bookreview when a book is deleted
+
+BookSchema.pre('remove', async function(next) {
+    console.log(`Bookreview being removed from Book ${this._id}`);
+    await this.model('BookReview').deleteMany({ book: this._id });
+    next();
+  });
+  
+// reverse populate with virtuals
+BookSchema.virtual('bookreview',{
+    ref:"BookReview",
+    localField:"_id",
+    foreignField:"book",
+    justOne:false,
+})
 module.exports = mongoose.model("Book", BookSchema);

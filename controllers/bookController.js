@@ -22,7 +22,7 @@ const getAllBooks= asyncHandler(async(req,res,next)=>{
     queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g,match=>`$${match}`);
 
     // Finding Resources
-    query = Book.find(JSON.parse(queryStr));
+    query = Book.find(JSON.parse(queryStr)).populate('bookreview');
     // Select Fields
     if(req.query.select){
         const fields = req.query.select.split(',').join(' ');
