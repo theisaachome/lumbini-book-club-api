@@ -16,10 +16,12 @@ const books = require('./routes/bookRoutes');
 const auths =require('./routes/authRoutes');
 const users = require('./routes/userRoutes');
 const bookreviews = require('./routes/bookreviewRoutes');
+const authors = require('./routes/authorRoutes');
 app.use("/api/v1/books",books);
 app.use("/api/v1/auth",auths);
 app.use("/api/v1/users",users);
 app.use("/api/v1/bookreviews",bookreviews);
+app.use("/api/v1/authors",authors)
 
 
 // error handler
