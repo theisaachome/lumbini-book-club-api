@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const AuthorSchema = mongoose.Schema(
     {
-    username: {
+    authorname: {
         type: String,
         required: [true, 'Please add an author name'],
     },
@@ -13,7 +13,7 @@ const AuthorSchema = mongoose.Schema(
             'Please add a valid email',
         ],
     },
-    status:{
+    isActive:{
        type: Boolean,
        default:true,
     }

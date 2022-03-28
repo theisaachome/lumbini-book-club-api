@@ -23,7 +23,17 @@ exports.getAuthor = asyncHandler(async(req,res,next)=>{
 // @route     POST /api/v1/authors/
 // @access    Private
 exports.addAuthor = asyncHandler(async(req,res,next)=>{
-    res.send("response from end point")
+    const {email,authorname} = req.body;
+    // check the email and paassword in request body
+    if (!authorname) {
+        return next(new ErrorResponse("Please provide an author name.", 400));
+    };
+    const author = await Author.create({authorname,email});
+
+    res.status(200).json({
+        success:true,
+        data:author,
+    })
 })
 
 
