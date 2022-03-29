@@ -14,7 +14,7 @@ const getAllBooks= asyncHandler(async(req,res,next)=>{
             success:true,
             count:books.length,
             data:books
-        })
+        });
     }else{
         res.status(200).json(res.advancedResults);
     }
@@ -27,7 +27,7 @@ const getBook =asyncHandler(async(req,res,next)=>{
     const book = await Book.findById(req.params.id).populate(
         {
             path:"author",
-            select:'name'
+            select:"name"
         }
     );
     if(!book){
@@ -52,7 +52,12 @@ const createBook = asyncHandler(async(req,res,next)=>{
        status:true,
        data:book,
     })
-})
+});
+
+// @desc      Update books
+// @route     PUT /api/v1/books
+// @route     PUT /api/v1/authors/:authorId
+// @access    Private
 const updateBook = asyncHandler(async(req,res,next)=>{
     let book = await Book.findById(req.params.id);
     if(!book){
@@ -60,6 +65,17 @@ const updateBook = asyncHandler(async(req,res,next)=>{
             new ErrorResponse(`Book not found with id of ${req.params.id}`, 404)
         );
     }
+
+    // Make sure login user  role  is right
+    if (req.user.role !== 'admin') {
+        return next(
+        new ErrorResponse(
+            `User ${req.user.id} is not authorized to update this resource ${book._id}`,
+            403
+        )
+        );
+    }
+
     book = await Book.findByIdAndUpdate(req.params.id,req.body,{
         new:true,
         runValidators:true,
@@ -69,11 +85,26 @@ const updateBook = asyncHandler(async(req,res,next)=>{
         data:book,
     });
 });
+
+
+// @desc      Delete books
+// @route     DELETE /api/v1/books
+// @route     DELETE /api/v1/authors/:authorId
+// @access    Private
 const deleteBook = asyncHandler(async(req,res,next)=>{
     let book = await Book.findById(req.params.id);
     if(!book){
         return next(
             new ErrorResponse(`Book not found with id of ${req.params.id}`, 404)
+        );
+    }
+    // Make sure login user  role  is right
+    if (req.user.role !== 'admin') {
+        return next(
+        new ErrorResponse(
+            `User ${req.user.id} is not authorized to delete this resource ${book._id}`,
+            403
+        )
         );
     }
     await book.remove();
