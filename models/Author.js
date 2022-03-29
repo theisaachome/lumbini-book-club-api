@@ -32,7 +32,20 @@ const AuthorSchema = mongoose.Schema(
     },
     },
     {
+        toJSON: { virtuals: true },
+        toObject: { virtuals: true }
+    },
+    {
         timestamps: true
     }
 );
+
+// Reverse populate with virtuals
+AuthorSchema.virtual('books', {
+    ref: 'Author',
+    localField: '_id',
+    foreignField: 'author',
+    justOne: false
+});
+  
 module.exports = mongoose.model('Author',AuthorSchema);

@@ -2,13 +2,34 @@ const  asyncHandler=require('express-async-handler');
 const Book = require('../models/Book');
 const ErrorResponse = require('../utils/errorResponse');
 
-// @route     GET /api/v1/bootcamps/:bootcampId/courses
-const getAllBooks= asyncHandler(async(req,res,next)=>{
 
-    res.status(200).json(res.advancedResults);
+// @desc      Get books
+// @route     GET /api/v1/books
+// @route     GET /api/v1/authors/:authorId/books
+// @access    Public
+const getAllBooks= asyncHandler(async(req,res,next)=>{
+    if(req.params.authorId){
+        const books = await Book.find({author:req.params.authorId});
+        res.status(200).json({
+            success:true,
+            count:books.length,
+            data:books
+        })
+    }else{
+        res.status(200).json(res.advancedResults);
+    }
 });
+
+// @desc      Get single book
+// @route     GET /api/v1/books/:id
+// @access    Public
 const getBook =asyncHandler(async(req,res,next)=>{
-    const book = await Book.findById(req.params.id);
+    const book = await Book.findById(req.params.id).populate(
+        {
+            path:"author",
+            select:'name'
+        }
+    );
     if(!book){
         return next(
             new ErrorResponse(`Book not found with id of ${req.params.id}`, 404)
@@ -19,6 +40,12 @@ const getBook =asyncHandler(async(req,res,next)=>{
         data:book
     });
 });
+
+
+// @desc      Add books
+// @route     POST /api/v1/books
+// @route     POST /api/v1/authors/:authorId/books
+// @access    Private
 const createBook = asyncHandler(async(req,res,next)=>{
     const book = await Book.create(req.body);
     res.status(201).json({

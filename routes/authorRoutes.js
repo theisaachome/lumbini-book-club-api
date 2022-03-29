@@ -3,6 +3,10 @@ const { getAllAuthors, addAuthor, updateAuthor, deleteAuthor, getAuthor } = requ
 const { requiredSignin } = require('../middlewares/authMiddleware');
 const router = express.Router();
 
+const booksRoutes = require('./bookRoutes');
+
+
+router.use("/:authorId/books",booksRoutes);
 
 router.route('/')
     .get(getAllAuthors)

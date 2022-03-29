@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGO_URL_LOCAL,()=>{});
 
 // read json files
 const books = JSON.parse(fs.readFileSync("./_data/book.json",'utf-8'));
-const authors = JSON.parse(fs.readFileSync('./_data/author.json','utf-8'));
+const authors = JSON.parse(fs.readFileSync('./_data/authors.json','utf-8'));
 // import data
 const importData = async()=>{
     try {

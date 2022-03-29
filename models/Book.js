@@ -24,8 +24,9 @@ const BookSchema = mongoose.Schema({
         default: "unknown"
     },
     author: {
-        type: mongoose.Schema.Types.ObjectId,
-        required:[true,'Please add author for a book']
+        type: mongoose.Schema.ObjectId,
+        ref: 'Author',
+        required:[true,'Please add author for a book and can not be empty author.']
     }
     },
     {
@@ -39,12 +40,11 @@ const BookSchema = mongoose.Schema({
 );
 
 // Cascade delete bookreview when a book is deleted
-
 BookSchema.pre('remove', async function(next) {
     console.log(`Bookreview being removed from Book ${this._id}`);
     await this.model('BookReview').deleteMany({ book: this._id });
     next();
-  });
+});
   
 // reverse populate with virtuals
 BookSchema.virtual('bookreview',{
