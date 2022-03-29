@@ -1,6 +1,8 @@
 const  asyncHandler=require('express-async-handler');
 const Book = require('../models/Book');
 const ErrorResponse = require('../utils/errorResponse');
+
+// @route     GET /api/v1/bootcamps/:bootcampId/courses
 const getAllBooks= asyncHandler(async(req,res,next)=>{
 
     res.status(200).json(res.advancedResults);

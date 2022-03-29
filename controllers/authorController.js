@@ -54,7 +54,19 @@ exports.addAuthor = asyncHandler(async(req,res,next)=>{
 // @route     POST /api/v1/authors/:id
 // @access    Private
 exports.updateAuthor = asyncHandler(async(req,res,next)=>{
-    res.send("response from end point")
+    let author = await Author.findById(req.params.id);
+    if(!author)return next(new ErrorResponse(`Author not found with id ${req.params.id}`,404));
+    if(req.user.role !=="admin"){
+        return next(new ErrorResponse(
+            `User ${req.user.id} is not authorized to update this resource.`,
+            403
+        ))
+    }
+    author = await Author.findByIdAndUpdate(req.params.id,req.body,{
+        new: true,
+        runValidators: true
+    })
+    res.status(200).json({success:true,data:author});
 })
 
 

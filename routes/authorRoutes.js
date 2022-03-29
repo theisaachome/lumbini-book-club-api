@@ -1,16 +1,17 @@
 const express = require('express');
 const { getAllAuthors, addAuthor, updateAuthor, deleteAuthor, getAuthor } = require('../controllers/authorController');
+const { requiredSignin } = require('../middlewares/authMiddleware');
 const router = express.Router();
 
 
 router.route('/')
     .get(getAllAuthors)
-    .post(addAuthor);
+    .post(requiredSignin,addAuthor);
 
 router.route('/:id')
     .get(getAuthor)
-    .put(updateAuthor)
-    .delete(deleteAuthor)
+    .put(requiredSignin,updateAuthor)
+    .delete(requiredSignin,deleteAuthor)
 
 
 module.exports = router;

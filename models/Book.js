@@ -24,8 +24,8 @@ const BookSchema = mongoose.Schema({
         default: "unknown"
     },
     author: {
-        type: String,
-        default: "unknown"
+        type: mongoose.Schema.Types.ObjectId,
+        required:[true,'Please add author for a book']
     }
     },
     {
