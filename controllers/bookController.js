@@ -1,5 +1,6 @@
 const  asyncHandler=require('express-async-handler');
 const Book = require('../models/Book');
+const Author = require("../models/Author");
 const ErrorResponse = require('../utils/errorResponse');
 
 
@@ -47,6 +48,29 @@ const getBook =asyncHandler(async(req,res,next)=>{
 // @route     POST /api/v1/authors/:authorId/books
 // @access    Private
 const createBook = asyncHandler(async(req,res,next)=>{
+    req.body.author = req.params.authorId;
+
+    // find author from req.params
+    const author = await Author.findById(req.params.authorId);
+    if (!author) {
+        return next(
+          new ErrorResponse(
+            `No author with the id of ${req.params.authorId}`,
+            404
+          )
+        );
+      }
+      
+  // Make sure user is bootcamp owner
+  if (req.user.role !== 'admin') {
+    return next(
+      new ErrorResponse(
+        `User ${req.user.id} is not authorized to commit this action.`,
+        403
+      )
+    );
+  }
+
     const book = await Book.create(req.body);
     res.status(201).json({
        status:true,
