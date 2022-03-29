@@ -18,7 +18,7 @@ exports.getAllAuthors = asyncHandler(async(req,res,next)=>{
 exports.getAuthor = asyncHandler(async(req,res,next)=>{
     const author = await Author.findById(req.params.id);
     if(!author)return next(new ErrorResponse(`There is no author with id${req.params.id}`));
-    
+
     res.status(200).json({
         success:true,
         data:author,
@@ -30,12 +30,18 @@ exports.getAuthor = asyncHandler(async(req,res,next)=>{
 // @route     POST /api/v1/authors/
 // @access    Private
 exports.addAuthor = asyncHandler(async(req,res,next)=>{
-    const {email,authorname} = req.body;
+    const {email,name,bio,isActive,rating} = req.body;
     // check the email and paassword in request body
-    if (!authorname) {
+    if (!name) {
         return next(new ErrorResponse("Please provide an author name.", 400));
     };
-    const author = await Author.create({authorname,email});
+    const author = await Author.create({
+        name,
+        bio,
+        isActive,
+        email,
+        rating,
+    });
 
     res.status(200).json({
         success:true,

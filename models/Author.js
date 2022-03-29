@@ -2,9 +2,14 @@ const mongoose = require('mongoose');
 
 const AuthorSchema = mongoose.Schema(
     {
-    authorname: {
+    name: {
         type: String,
         required: [true, 'Please add an author name'],
+        minlength: [3,'Please add a real name of author.'],
+    },
+    bio: {
+        type: String,
+        max: [200,'Maxlenght 200 for author biography.'],
     },
     email: {
         type: String,
@@ -13,10 +18,18 @@ const AuthorSchema = mongoose.Schema(
             'Please add a valid email',
         ],
     },
+    gender:{
+        type:String,
+        default:"",
+    },
     isActive:{
        type: Boolean,
        default:true,
-    }
+    },
+    ratings:{
+        type:Number,
+        default:0,
+    },
     },
     {
         timestamps: true
