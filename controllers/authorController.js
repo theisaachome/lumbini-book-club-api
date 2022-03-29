@@ -8,7 +8,8 @@ const ErrorResponse = require('../utils/errorResponse');
 // @route     GET /api/v1/authors
 // @access    Pulic
 exports.getAllAuthors = asyncHandler(async(req,res,next)=>{
-    res.send("response from end point")
+    const authors = await Author.find().sort("authorname");
+    res.status(200).json({success:true,count:authors.length,data:authors});
 })
 
 // @desc      Get Author
