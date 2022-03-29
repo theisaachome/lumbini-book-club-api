@@ -16,7 +16,13 @@ exports.getAllAuthors = asyncHandler(async(req,res,next)=>{
 // @route     GET /api/v1/authors/:id
 // @access    Pulic
 exports.getAuthor = asyncHandler(async(req,res,next)=>{
-    res.send("response from end point")
+    const author = await Author.findById(req.params.id);
+    if(!author)return next(new ErrorResponse(`There is no author with id${req.params.id}`));
+    
+    res.status(200).json({
+        success:true,
+        data:author,
+    })
 })
 
 
