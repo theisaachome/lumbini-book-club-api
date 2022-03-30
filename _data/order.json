@@ -1,0 +1,20 @@
+{
+    "orderItems":[
+        {
+            "quantity":1,
+            "product":""
+        },
+        {
+            "quantity":2,
+            "product":""
+        }
+    ],
+    "customerName":"Mi Mi Aung",
+    "email":"mimiaung@gmail.com",
+    "shippingAddress1":"Flower Street, 45",
+    "shippingAddress2":"lane thit",
+    "city":"Yangon",
+    "zip":"11063",
+    "country":"Myanmar",
+    "phone":"09250832041"
+}

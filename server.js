@@ -17,11 +17,14 @@ const auths =require('./routes/authRoutes');
 const users = require('./routes/userRoutes');
 const bookreviews = require('./routes/bookreviewRoutes');
 const authors = require('./routes/authorRoutes');
+const orders = require("./routes/orderRoutes");
+
 app.use("/api/v1/books",books);
 app.use("/api/v1/auth",auths);
 app.use("/api/v1/users",users);
 app.use("/api/v1/bookreviews",bookreviews);
-app.use("/api/v1/authors",authors)
+app.use("/api/v1/authors",authors);
+app.use("/api/v1/orders",orders);
 
 
 // error handler
@@ -38,5 +41,5 @@ process.on('unhandledRejection', (err, promise) => {
     console.log(`Error: ${err.message}`.red);
     // Close server & exit process
     // server.close(() => process.exit(1));
-  });
+});
   

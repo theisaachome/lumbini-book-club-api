@@ -45,7 +45,7 @@ const OrderSchema = mongoose.Schema({
     status: {
         type: String,
         enum: {
-          values: ['Pending', 'Delivered','Process'],
+          values: ['Pending', 'Shipped','Process'],
           message: '{VALUE} is not supported'
         }
     },
