@@ -8,7 +8,7 @@ const ErrorResponse = require('../utils/errorResponse');
 // @route     GET /api/v1/authors
 // @access    Pulic
 exports.getAllAuthors = asyncHandler(async(req,res,next)=>{
-    const authors = await Author.find().sort("name");
+    const authors = await Author.find().sort("name").populate('books');
     res.status(200).json({success:true,count:authors.length,data:authors});
 })
 
@@ -75,7 +75,12 @@ exports.updateAuthor = asyncHandler(async(req,res,next)=>{
 // @route     POST /api/v1/authors/:id
 // @access    Private
 exports.deleteAuthor = asyncHandler(async(req,res,next)=>{
-    res.send("response from end point")
+    const author = await Author.findById(req.params.id);
+
+    if(!author)return next(new ErrorResponse(`Author not found with id ${req.params.id}`,404));
+    
+    author.remove();
+    res.status(204).json({success:true,data:{}})
 });
 
 

@@ -30,12 +30,12 @@ const BookSchema = mongoose.Schema({
     }
     },
     {
-        timestamps: true
-    },
-    {
         // for reverse population which are persist in datatbase.
         toJSON:{virtuals:true},
         toObject:{virtuals:true}
+    },
+    {
+        timestamps: true
     }
 );
 

@@ -40,9 +40,15 @@ const AuthorSchema = mongoose.Schema(
     }
 );
 
+// Cascade  delete courses when a author is deleted (phsyical delete)
+AuthorSchema.pre('remove',async function(next){
+    console.log(`Books being removed from an author ${this._id}`);
+    await this.model('Book').deleteMany({author:this._id});
+    next();
+});
 // Reverse populate with virtuals
 AuthorSchema.virtual('books', {
-    ref: 'Author',
+    ref: 'Book',
     localField: '_id',
     foreignField: 'author',
     justOne: false
