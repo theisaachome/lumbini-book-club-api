@@ -52,10 +52,37 @@ exports.createOrder = asyncHandler(async(req,res,next)=>{
     const orderItemsIds = Promise.all(req.body.orderItems.map(
         async(orderItem)=>{
         let newOrderItem = new OrderItem({
-            quantity: orderitem.quantity,
-            product: orderitem.product,
-        })
-    }))
+            quantity: orderItem.quantity,
+            product: orderItem.product,
+        });
+        newOrderItem = await newOrderItem.save();
+
+        return newOrderItem._id;
+    }));
+    const orderItemsIdsResolved = await orderItemsIds;
+
+    //  total price
+
+    //  look for customer with email 
+    //  if no customer then create new record for customer 
+    //  if customer then do nth
+
+
+  let order = new Order({
+    orderItems: orderItemsIdsResolved,
+    shippingAddress1: req.body.shippingAddress1,
+    shippingAddress2: req.body.shippingAddress2,
+    city: req.body.city,
+    zip: req.body.zip,
+    country: req.body.country,
+    phone: req.body.phone,
+    status: req.body.status,
+    user: req.body.user,
+  });
+  res.status(200).json({
+      success:true,
+      data:order,
+  })
 });
 
 // @desc      Get an orders (admin)
