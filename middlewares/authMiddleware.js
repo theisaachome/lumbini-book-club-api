@@ -18,7 +18,7 @@ exports.requiredSignin = asyncHandler(async (req, res, next) => {
     try {
         // verify token
         const decoded =  jwt.verify(token,process.env.JWT_SECRET);
-        console.log(decoded.id);
+        // console.log(decoded.id);
         const user = await Account.findById(decoded.id);
         req.user = user;
         next();

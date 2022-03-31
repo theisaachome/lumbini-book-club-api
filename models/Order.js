@@ -6,14 +6,14 @@ const OrderSchema = mongoose.Schema({
             ref:"OrderItem",
             required:true,
     }],
-    customerName:{
-        type:String,
-        required:true,
+    customer:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"Customer",
+        required:true
     },
     email: {
         type: String,
         required: [true, 'Please add an email'],
-        unique: true,
         match: [
             /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
             'Please add a valid email',
@@ -47,7 +47,8 @@ const OrderSchema = mongoose.Schema({
         enum: {
           values: ['Pending', 'Shipped','Process'],
           message: '{VALUE} is not supported'
-        }
+        },
+        default:"Pending"
     },
     totalPrice:{
         type:Number,
