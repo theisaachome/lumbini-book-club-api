@@ -1,17 +1,23 @@
 
 const express = require('express');
-const { getAllCustomers, addCustomer, getCustomer, updateCustomer, deleteCustomer } = require('../controllers/customerController');
+const { 
+    getAllCustomers, 
+    addCustomer, 
+    getCustomer, 
+    updateCustomer, 
+    deleteCustomer } = require('../controllers/customerController');
+const { requiredSignin } = require('../middlewares/authMiddleware');
 const router = express.Router();
 
 
 router.route("/")
-    .get(getAllCustomers)
-    .post(addCustomer);
+    .get(requiredSignin,getAllCustomers)
+    .post(requiredSignin,addCustomer);
 
 router.route("/:id")
-    .get(getCustomer)
-    .put(updateCustomer)
-    .delete(deleteCustomer);
-    
+    .get(requiredSignin,getCustomer)
+    .put(requiredSignin,updateCustomer)
+    .delete(requiredSignin,deleteCustomer);
+
 module.exports = router;
 
