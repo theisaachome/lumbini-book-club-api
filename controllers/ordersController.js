@@ -107,7 +107,7 @@ exports.createOrder = asyncHandler(async(req,res,next)=>{
            name:customerName,
            email,
            shippingAddress1,
-           shippingAddress1,
+           shippingAddress2,
            city,
            zip,
            country,
