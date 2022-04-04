@@ -3,6 +3,7 @@ const Customer = require("../models/Customer");
 const Order = require("../models/Order");
 const OrderItem = require("../models/OrderItem");
 const ErrorResponse = require("../utils/errorResponse");
+const sendEmail = require("../utils/sendEmail");
 
 // @desc      Get all new orders (admin)
 // @route     GET /api/v1/orders
@@ -130,9 +131,23 @@ exports.createOrder = asyncHandler(async(req,res,next)=>{
   });
   order = await order.save();
   if(!order) return next(new ErrorResponse(`The order can not be created`,400));
+
+
+  const message = `
+        ${customerName}, thank you for your order!
+        We've received your order and will contact you soon 
+        as soon as the package is shipped.
+        You can your purchase information below.
+  `;
+
+  const sendResult = await sendEmail({
+    email:email,
+    subject: 'Order Confirmation',
+    message,
+  });
   res.status(200).json({
       success:true,
-      data:order,
+      msg:"Orders have been placed.Pleas check your email for comfirmation"
   })
 });
 

@@ -67,7 +67,7 @@ exports.forgotPassword = asyncHandler(async (req, res, next) => {
     // find User with Email
     const account = await Account.findOne({ email: req.body.email });
     if (!account) {
-        return next(new ErrorResponse(`There is no an account with ${account}`, 404));
+        return next(new ErrorResponse(`There is no an account with ${req.body.email}`, 404));
     }
     // Get Reset Token 
     const resetToken = account.getResetPasswordToken();
