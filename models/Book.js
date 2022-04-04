@@ -37,6 +37,10 @@ const BookSchema = mongoose.Schema({
     tags:[
         {type:String}
     ],
+    isPublished:{
+        type:Boolean,
+        default:true
+    },
     author: {
         type: mongoose.Schema.ObjectId,
         ref: 'Author',
