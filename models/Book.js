@@ -23,11 +23,26 @@ const BookSchema = mongoose.Schema({
         type: String,
         default: "unknown"
     },
+    pages:{
+        type:Number,
+        default:0,
+    },
+    edition:{
+        type:String,
+
+    },
+    categories:[
+        {type:String}
+    ],
+    tags:[
+        {type:String}
+    ],
     author: {
         type: mongoose.Schema.ObjectId,
         ref: 'Author',
         required:[true,'Please add author for a book and can not be empty author.']
-    }
+    },
+    
     },
     {
         // for reverse population which are persist in datatbase.
