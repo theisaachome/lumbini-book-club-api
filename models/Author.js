@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-const AuthorSchema = mongoose.Schema(
-    {
+const AuthorSchema = mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Please add an author name'],
