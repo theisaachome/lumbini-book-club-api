@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const colors = require('colors');
 const dotenv = require('dotenv').config();
 const cookieParser= require('cookie-parser');
@@ -11,6 +12,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({extended:false}));
 
+// Set static folder
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Mount routes files
 const books = require('./routes/bookRoutes');
 const auths =require('./routes/authRoutes');
@@ -19,6 +23,8 @@ const bookreviews = require('./routes/bookreviewRoutes');
 const authors = require('./routes/authorRoutes');
 const orders = require("./routes/orderRoutes");
 const customers = require('./routes/customerRoutes');
+const fileUpload = require("./routes/fileuploadRoutes");
+
 
 app.use("/api/v1/books",books);
 app.use("/api/v1/auth",auths);
@@ -27,6 +33,7 @@ app.use("/api/v1/bookreviews",bookreviews);
 app.use("/api/v1/authors",authors);
 app.use("/api/v1/orders",orders);
 app.use("/api/v1/customers",customers);
+app.use('/api/v1/uploads/',fileUpload);
 
 
 // error handler

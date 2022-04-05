@@ -12,7 +12,8 @@ global.__basedir = __dirname;
 // Multer Upload Storage
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, __basedir + '/uploads/')
+        // cb(null, `../${__dirname}` + '/uploads/')
+        cb(null,process.env.FILE_UPLOAD_PATH);
     },
     filename: (req, file, cb) => {
         cb(null, file.fieldname + "-" + Date.now() + "-" + file.originalname)
