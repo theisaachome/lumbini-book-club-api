@@ -1,115 +1,153 @@
-name	dob	bio	isActive	ratings
-"A Yoe"			true	0
-"Akyi Taw"			true	0
-"Akyin Nar Mon"			true	0
-"Ashin Eiddhi Pala"			true	0
-"Ashin Sandar Hti Ka"			true	0
-"Aung Aye (Yangon University)"			true	0
-"Aung Cheint"			true	0
-"Aung Thin"			true	0
-"Aung Tun"			true	0
-"British Ko Ko Maung"			true	0
-"Cambridge"			true	0
-"Chan Myae Win"			true	0
-"Chit Oo Nyo"			true	0
-"Cho Paing Naung"			true	0
-"Collin"			true	0
-"D No Vo"			true	0
-"Dr. Aung Myint Oo"			true	0
-"Dr.Phyo Thiha"			true	0
-"Hla Than"			true	0
-"Htet Htet Htun"			true	0
-"Htet Yei"			true	0
-"Jauk Jack"			true	0
-"Jessica Mozart"			true	0
-"Journal Kyaw Ma Ma Lay"			true	0
-"Journal Kyaw U Chit Mg"			true	0
-"Juu"			true	0
-"Kaung Thar"			true	0
-"Khet Zaw"			true	0
-"Khin Hnin Yu"			true	0
-"Khin Khin Htoo"			true	0
-"Ko Ko Lay"			true	0
-"Kyal Sin Yu Mon"			true	0
-"Kyar Pauk"			true	0
-"Kyaw Yin Myint "  			true	0
-"Kyi Aye"			true	0
-"Lal Twin Thar Saw Chit"			true	0
-"Lu Du Daw AMar"			true	0
-"Lu Thar Man"			true	0
-"Lynn Khant"			true	0
-"Lynn Tint Thiha"			true	0
-"Lynn Yaung Sin"			true	0
-"Ma Sandar"			true	0
-"Ma Thida (Sanchaung)  "			true	0
-"Mar Yin Yin"			true	0
-"Maung Moe Thu"			true	0
-"Maung Myint Kywe"			true	0
-"Maung Paw Tun"			true	0
-"Maung Thar Cho"			true	0
-"Maung Thein Saing"			true	0
-"Maung Tun Thu"			true	0
-"Mi Man Lay"			true	0
-"Min Aung Min"			true	0
-"Min Din"			true	0
-"Min Khite Soe San"			true	0
-"Min Ko Naing"			true	0
-"Min Lu"			true	0
-"Moe Moe(Innyar)"			true	0
-"Moe Shin"			true	0
-"Mon Halsey"			true	0
-"Mya Kyay"			true	0
-"Mya Than Tint"			true	0
-"Myat Nyein "			true	0
-"Myay Hmone Lwin"			true	0
-"Myit Kyoe Inn"			true	0
-"Naing Win Swe"			true	0
-"Nanda Sarya"			true	0
-"Nanda Thein Zan"			true	0
-"Nat Nwe"			true	0
-"Ngu War Kyaw Oo"			true	0
-"Ni Ko Ye"			true	0
-"Nine Nine Sa Nay"			true	0
-"No Shi"			true	0
-"Nu Nu Yi Innwa "			true	0
-"Nyan Wai"			true	0
-"Nyi Pu Lay"			true	0
-"Oxford Sayar Taw"			true	0
-"Papillon"			true	0
-"Par Ya Gu"			true	0
-"Pe Moe Hnin"			true	0
-"Phay Myint"			true	0
-"Phone Naing "			true	0
-"Phraw San"			true	0
-"Pone Nya Khin"			true	0
-"Raymond Murphy"			true	0
-"Raymond Murphy(WE)"			true	0
-"San Shwe Myint"			true	0
-"Sapal Phyu Nu"			true	0
-"Seint San Phyu"			true	0
-"Shwe Ou Daung"			true	0
-"Sit Nyein"			true	0
-"Soe Htike (Phado)"			true	0
-"Su Chi Ko"			true	0
-"Than Myint Aung"			true	0
-"Thandar"			true	0
-"Thaw Dar Swe"			true	0
-"Thein Phay Myint"			true	0
-"Thu Maung"			true	0
-"Tin Moe"			true	0
-"Tin Nyunt"			true	0
-"Tristan Pyne"			true	0
-"Tut Pe"			true	0
-"U Aung Khin"			true	0
-"U Chan Mya"			true	0
-"U Nu"			true	0
-"U Phoe Kyar"			true	0
-"U Thu Kha"			true	0
-"Various Author"			true	0
-"Win Nyein"			true	0
-"Win Tin"			true	0
-"Win Win Latt"			true	0
-"Yarzar Wizaya"			true	0
-"Yin Maung"			true	0
-"Yu Ya"			true	0
-"Zaw Win Kyu"			true	0
+name	dob	biography 	isActive	ratings
+Cambridge			TRUE	0
+Collin			TRUE	0
+Raymond Murphy			TRUE	0
+Raymond Murphy(WE)			TRUE	0
+Tristan Pyne			TRUE	0
+ကျားပေါက်			TRUE	0
+ကျော်မိုးဟိန်း (EMBA)			TRUE	0
+ကြည်အေး			TRUE	0
+ကလောင်စုံ			TRUE	0
+ကိုကိုလေး			TRUE	0
+ကောင်းသာ			TRUE	0
+ခက်ဇော်			TRUE	0
+ခင်ခင်ထူး			TRUE	0
+ခင်နှင်းယု			TRUE	0
+ချစ်ဦးညို			TRUE	0
+ချမ်းမြေ့ဝင်း			TRUE	0
+ချိုပိန်းနောင်			TRUE	0
+ခေတ်ရှေးညို			TRUE	0
+ဂျက်စီကာ မိုးဇက်			TRUE	0
+ဂျာနယ်ကျော် ဦးချစ်မောင်			TRUE	0
+ဂျာနယ်ကျော်မမလေး			TRUE	0
+ဂျူး			TRUE	0
+ဂျောက်ဂျက်			TRUE	0
+စစ်ငြိမ်း			TRUE	0
+စံပယ်ဖြူနု			TRUE	0
+စံရွှေမြင့်			TRUE	0
+စိမ့်စမ်းဖြူ (ဆေးတက္ကသိုလ်)			TRUE	0
+စိုင်းဝင်းမြင့်			TRUE	0
+စိုးထိုက် (ဖဒို)			TRUE	0
+ဆွေလှိုင်ဦး			TRUE	0
+ဆုခြည်ကို			TRUE	0
+ဇော်ဝင်းကြူ (ပျဉ်းမနား)			TRUE	0
+ဉာဏ်ဝေ (မြစ်သာမြေ)			TRUE	0
+ညီပုလေး			TRUE	0
+တက္ကသိုလ်ဘုန်းနိုင်			TRUE	0
+တင်ညွှန့်			TRUE	0
+တင်မိုး			TRUE	0
+တွတ်ပီ			TRUE	0
+ထက်ထက်ထွန်း (waterfall)			TRUE	0
+ထက်ရည်			TRUE	0
+ထင်လင်း			TRUE	0
+ထိန်လင်း			TRUE	0
+ဒီဇမ်မြူး			TRUE	0
+ဒီနိုဗို			TRUE	0
+ဒေါက်တာ ကြယ်စင်ယုမွန်			TRUE	0
+ဒေါက်တာ စိုးသန်း + ညွှန့်ဝေမိုး			TRUE	0
+ဒေါက်တာ ဖြိုးမောင်			TRUE	0
+ဒေါက်တာ ဖြိုးသီဟ			TRUE	0
+ဒေါက်တာ အောင်မြင့်ဦး			TRUE	0
+ဒေါ်သက်သက်			TRUE	0
+နတ်နွယ်			TRUE	0
+နန္ဒ			TRUE	0
+နန္ဒစာရ			TRUE	0
+နန္ဒာသိန်းဇံ			TRUE	0
+နွေအိမ်မောင်ဝင်း			TRUE	0
+နိုင်းနိုင်းစနေ			TRUE	0
+နိုင်ဝင်းဆွေ			TRUE	0
+နိုင်းသစ်			TRUE	0
+နိုရှီ			TRUE	0
+နီကိုရဲ			TRUE	0
+နုနုရည်အင်းဝ			TRUE	0
+နုဝါကျော်ဦး			TRUE	0
+နေဗလ်			TRUE	0
+နေဝင်းမြင့်			TRUE	0
+ပါပီယွန်			TRUE	0
+ပါရဂူ			TRUE	0
+ပီမိုးနင်း			TRUE	0
+ပုညခင်			TRUE	0
+ဖရော်ဆန်			TRUE	0
+ဖေမြင့်			TRUE	0
+ဗန်းမော် သိန်းဖေ			TRUE	0
+ဗြိတိသျှ ကိုကိုမောင်			TRUE	0
+မင်းကိုနိုင်			TRUE	0
+မင်းခန့် (verse)			TRUE	0
+မင်းခိုက်စိုးစန်			TRUE	0
+မင်းဒင်			TRUE	0
+မင်းလူ			TRUE	0
+မင်းအောင်မင်း			TRUE	0
+မစန္ဒာ			TRUE	0
+မျိုးဇော်ဝင်း			TRUE	0
+မြကျေး			TRUE	0
+မြစ်ကျိုးအင်း			TRUE	0
+မြတ်ငြိမ်း			TRUE	0
+မြသန်းတင့်			TRUE	0
+မြေမှုန်လွင်			TRUE	0
+မွန်ဟော်စီ			TRUE	0
+မသီတာ (စမ်းချောင်း)			TRUE	0
+မာရင်ရင်			TRUE	0
+မိမန်းလေး			TRUE	0
+မိုးဆတ်			TRUE	0
+မိုးမိုး (အင်းလျား)			TRUE	0
+မိုးရှင်း			TRUE	0
+မိုးရှင်း (I.M.T)			TRUE	0
+မိုးဝေး			TRUE	0
+မောင်ချောနွယ်			TRUE	0
+မောင်ထွန်းသူ			TRUE	0
+မောင်ပေါ်ထွန်း			TRUE	0
+မောင်မြင့်ကြွယ်			TRUE	0
+မောင်မိုးသူ			TRUE	0
+မောင်ရင့်မာ (ကျောင်းကုန်း)			TRUE	0
+မောင်သစ်မင်း			TRUE	0
+မောင်သန်း			TRUE	0
+မောင်သာချို			TRUE	0
+မောင်သိန်းဆိုင်			TRUE	0
+ယမင်းမြတ်အေး			TRUE	0
+ယုယ			TRUE	0
+ရင်မောင် (မြတ်စုရင်)			TRUE	0
+ရွှေဥဒေါင်း			TRUE	0
+ရာဇာဝိဇယ			TRUE	0
+ရဲနောင်ထွဋ်			TRUE	0
+လင်းခန့်			TRUE	0
+လင်းတင့်သီဟ			TRUE	0
+လင်းရောင်စင်			TRUE	0
+လမင်းမေ			TRUE	0
+လယ်တွင်းသားစောချစ်			TRUE	0
+လှသန်း			TRUE	0
+လူထုဒေါ်အမာ			TRUE	0
+လူသာမန်			TRUE	0
+ဝင်းငြိမ်း			TRUE	0
+ဝင်းမြင့်			TRUE	0
+ဝင်းဝင်းလတ်			TRUE	0
+ဝင်းဦး			TRUE	0
+သက်ထားခင်			TRUE	0
+သခင် ဘသောင်း			TRUE	0
+သန္တာ			TRUE	0
+သန်းမြင့်အောင်			TRUE	0
+သန်းဦး			TRUE	0
+သိန်းဖေမြင့်			TRUE	0
+သိုးဆောင်း			TRUE	0
+သုမောင်			TRUE	0
+သော်တာဆွေ			TRUE	0
+ဟံသာဝတီ ဦးဝင်းတင်			TRUE	0
+ဟိန်းမြတ်ဇော်			TRUE	0
+အကြင်နာမွန်			TRUE	0
+အကြည်တော်			TRUE	0
+အရှင်ဆန္ဒာဓိက			TRUE	0
+အရှင်ဒေါက်တာဘဒ္ဒန္တနန္ဒမာလာဘိဝံသ			TRUE	0
+အရှင်ဣဒ္ဓိပါလ			TRUE	0
+အရိုး			TRUE	0
+အံ့ဝင့်ထွဋ်			TRUE	0
+အောက်စဖို့ဒ်ဆရာတော် ဒေါက်တာ အရှင်ဓမ္မသာမိ			TRUE	0
+အောင်ခင်မြင့်			TRUE	0
+အောင်ချိမ့်			TRUE	0
+အောင်ရင်မြင့်			TRUE	0
+အောင်သင်း			TRUE	0
+အောင်အေး (ရန်ကုန်တက္ကသိုလ်)			TRUE	0
+ဦးချမ်းမြ			TRUE	0
+ဦးနု			TRUE	0
+ဦးဖိုးကျား			TRUE	0
+ဦးဘုန်း (ဓာတု)			TRUE	0
+ဦးသုခ			TRUE	0
+ဦးအောင်ခင်			TRUE	0
