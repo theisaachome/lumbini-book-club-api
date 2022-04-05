@@ -57,7 +57,7 @@
   },
   {
     "_id": "6242beaccad5678780f410a8",
-    "name": "Aung Tun",
+    "name": "အောင်သင်း",
     "bio": "",
     "gender": "",
     "isActive": true,
@@ -929,6 +929,14 @@
   },
   {
     "_id": "6242beaccad5678780f41115",
+    "name":"ခေတ်ရှေးညို",
+    "bio": "",
+    "gender": "",
+    "isActive": true,
+    "ratings": 0
+  },
+  {
+    "_id": "6242beaccad5678780f41116",
     "name":"ခေတ်ရှေးညို",
     "bio": "",
     "gender": "",
