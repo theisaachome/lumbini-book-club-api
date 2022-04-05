@@ -1,7 +1,7 @@
 [
   {
     "_id": "6242beaccad5678780f410a0",
-    "name": "A Yoe",
+    "name": "အရိုး",
     "bio": "",
     "gender": "",
     "isActive": true,
@@ -9,7 +9,7 @@
   },
   {
     "_id": "6242beaccad5678780f410a3",
-    "name": "Ashin Eiddhi Pala",
+    "name": "အရှင်ဣဒ္ဓိပါလ",
     "bio": "",
     "gender": "",
     "isActive": true,
@@ -17,7 +17,7 @@
   },
   {
     "_id": "6242beaccad5678780f410a1",
-    "name": "Akyi Taw",
+    "name": "အကြည်တော်",
     "bio": "",
     "gender": "",
     "isActive": true,
@@ -25,7 +25,7 @@
   },
   {
     "_id": "6242beaccad5678780f410a2",
-    "name": "Akyin Nar Mon",
+    "name": "အကြင်နာမွန်",
     "bio": "",
     "gender": "",
     "isActive": true,
