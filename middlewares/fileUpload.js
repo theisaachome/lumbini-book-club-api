@@ -13,6 +13,7 @@ global.__basedir = __dirname;
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         // cb(null, `../${__dirname}` + '/uploads/')
+        console.log("Storage location....");
         cb(null,process.env.FILE_UPLOAD_PATH);
     },
     filename: (req, file, cb) => {
@@ -22,6 +23,7 @@ const storage = multer.diskStorage({
 
 // Filter for CSV file
 const csvFilter = (req, file, cb) => {
+    console.log("filter csv files location....");
     if (file.mimetype.includes("csv")) {
         cb(null, true);
     } else {
