@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const path = require('path');
 const colors = require('colors');
 const dotenv = require('dotenv').config();
@@ -9,6 +10,7 @@ connectDB();
 const PORT = process.env.PORT ||8000;
 
 app.use(express.json());
+app.use(cors());
 app.use(cookieParser());
 app.use(express.urlencoded({extended:false}));
 
